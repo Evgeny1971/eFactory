@@ -1,0 +1,17 @@
+runtime: custom
+env: flex
+#region: europe-west3
+
+# This sample assumes your .NET application listens on port 8080.
+# If it listens on a different port, update this value accordingly.
+entrypoint: dotnet eShop.dll
+
+# Optional settings
+# automatic_scaling:
+#   min_num_instances: 1
+#   max_num_instances: 5
+#   cpu_utilization:
+#     target_utilization: 0.7
+
+# appengine_config:
+#   set_dll_path: true
